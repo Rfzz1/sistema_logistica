@@ -1,0 +1,78 @@
+#header {
+    background-color: #b3b3b3;
+    padding: 2.11vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_button {
+    margin: 0 0.7vh;
+    padding: 1.6vh 1vh;
+    font-size: 2vh;
+    font-weight: bold;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0.84vh;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.317vh;
+}
+
+
+.botao {
+    padding: 1vh 0.7vh;
+    font-size: 1.9vh;
+    font-weight: bold;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0.84vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Container do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Conteúdo que aparece no hover */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 17.56vh;
+  box-shadow: 0vh  0.87vh 1.75vh rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0.54vh;
+  padding: 1.09vh 0;
+  top: 100%; /* aparece logo abaixo do botão */
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0.87vh 1.75vh;
+  text-decoration: none;
+  display: block;
+}
+
+/* Efeito hover nos links */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 0.54vh;
+}
+
+/* Mostrar o dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,10 @@
+/* ===== Rodapé ===== */
+footer {
+	margin-top: auto;
+    background: #111;
+    font-size: 0.875rem;
+	width: 96.68%;
+	padding:1rem 2rem; 
+	text-align:center; 
+	color:var(--muted)
+}

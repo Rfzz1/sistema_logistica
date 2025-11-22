@@ -1,0 +1,18 @@
+# GUI
+customtkinter
+
+# Banco de dados
+mysql-connector-python
+pymysql
+
+# CLI / utilitários
+pyinstaller
+
+# Opcional: para variáveis de ambiente
+python-dotenv
+
+Instalação: 
+
+py -m pip install -r requirements.txt
+ou
+py -m pip install ``biblioteca``

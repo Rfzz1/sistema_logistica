@@ -1,0 +1,28 @@
+Estrutura de pasta
+
+MEU_PROJETO_ENTREGA/          <-- Pasta principal do trabalho
+│
+├── instalar_web.py           <-- O script Python que eu te passei
+│
+└── site_fonte/               <-- CRIE ESSA PASTA e jogue os arquivos do site aqui
+    ├── index.php
+    ├── conexao.php
+    └── css
+		└── index.css
+	
+
+Abra o XAMPP Control Panel.
+
+Dê Start no Apache e no MySQL.
+
+(Opcional) Verifique se o banco sistema_logistica_db já foi criado no phpMyAdmin.
+
+PARA RODAR O SCRIPT
+
+Abra a pasta onde está o arquivo.
+
+Clique na barra de endereço lá em cima (onde diz o caminho da pasta), apague tudo, escreva cmd e dê Enter.
+
+Vai abrir uma tela preta já na pasta certa.
+
+Digite: python instalar_web.py e dê Enter.

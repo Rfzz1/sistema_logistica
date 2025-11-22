@@ -1,0 +1,8 @@
+Artur Casagrande Brandelli: Responsável pela elaboração do sistema python em console(CLI) e documentação do projeto
+
+Rafael Bressan Fiorio: Responsável pela elaboração do sistema Web em HTML/PHP, Elaboração do ícone do arquivos python, logo do projeto e contribuições na elaboração na codificação do banco de dados, do sistema em interface gráfica(GUI) e na modularidade.
+
+Thiago Mattei Sartor:Responsável pela elaboração do sistema python em Interface Gráfica(GUI)
+
+
+Gustavo Feyh Zibetti: Responsável pela elaboração do banco de dados em SQL e sua conexão entre os diversos arquivos. Responsável também pelas consultas SQL dentro dos respectivos sistemas(WEB/GUI/CLS).

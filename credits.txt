@@ -1,0 +1,32 @@
+PROJETO: PROVA_PY_GRUPO_RAFAEL_THIAGO_GUSTAVO_BRANDELLI
+
+AUTORES:
+- Rafael Bressan Fiorio
+- Thiago Mattei Sartor
+- Gustavo Feyh Zibetti
+- Artur Casagrande Brandelli
+
+DESCRIÇÃO:
+Projeto desenvolvido como parte da prova do curso de Desenvolvimento de Sistemas. Inclui interface gráfica (GUI), aplicação web e ferramenta de linha de comando (CLI), integradas com banco de dados.
+
+BIBLIOTECAS UTILIZADAS:
+- CustomTKinter, TKinter: para desenvolvimento da GUI
+- Python 3.x
+- XAMPP (para rodar a aplicação PHP)
+- shutil, os, webbrowser, sys (módulos Python usados no script web_app.py)
+- hashlib, uuid, sys, random, time, os, mysql.connector, datetime, pymysql (módulos Python usados no script cli_tool.py e gui_app.py)
+- PyInstaller (para gerar executáveis, se usado)
+- MySQL Connector: para conexão com banco de dados
+
+Imagem utilizada como ícone do sistema Web: 
+https://img.freepik.com/vetores-premium/icone-de-carro-de-entrega-super-rapida_625678-23.jpg
+
+FERRAMENTAS UTILIZADAS:
+- Python 3.x
+- Github (para contribuição compartilhada)
+- PyInstaller (para gerar executáveis)
+- VS Code e Notepad++ (IDE)
+
+OBSERVAÇÕES:
+- Este projeto segue a estrutura modular, permitindo fácil manutenção e expansão.
+- Para executar, consulte o README.md e as instruções de execução na pasta /docs.

@@ -1,0 +1,164 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: "Outfit", sans-serif;
+    background: #0f0f0f;
+    color: #e8e8e8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+	font-family: "Outfit", sans-serif;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	padding-top: 4vh;
+	justify-content:center;
+}
+
+/* ===== TÍTULO ===== */
+#titulo {
+    font-size: 3.2vh;
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+/* ===== FORMULÁRIO ===== */
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+    justify-content: center;
+}
+
+.label {
+    display: none;
+}
+
+#input {
+    padding: 1.8vh;
+    width: 45vh;
+    border-radius: 1.31vh;
+    font-size: 1.8vh;
+    border: 0.1vh solid #2f2f2f;
+    background: #1a1a1a;
+    color: white;
+    transition: 0.2s;
+}
+
+#input:focus {
+    border-color: #6c5ce7;
+    background: #222;
+}
+
+#enviar {
+    padding: 1.8vh 3vh;
+    border-radius: 1.3vh;
+    border: none;
+    background: linear-gradient(90deg, #6c5ce7, #8e44ad);
+    color: white;
+    font-size: 1.7vh;
+    cursor: pointer;
+    transition: 0.2s;
+	font-weight: bold;
+}
+
+#enviar:hover {
+    opacity: 0.85;
+}
+
+/* ===== CARD RESULTADO ===== */
+.resultado {
+    width: 60vh;
+    margin-top: 3vh;
+    padding: 3vh;
+    background: #181818;
+    border-radius: 1.53vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	margin-bottom: 4vh;
+}
+
+/* ===== SUBTÍTULOS ===== */
+.subtit {
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vh;
+	color: #ba43e8;
+}
+
+/* ===== Infos ===== */
+.subsub {
+    font-size: 2.3vh;
+    margin-bottom: 1.5vh;
+    text-align: center;
+}
+
+/* ===== ORIGEM / DESTINO ===== */
+.origem {
+    background: #2c2c2c;
+    border-left: 0.43vh solid #ff1fc3;
+    padding: 2vh;
+    border-radius: 1.09vh;
+    margin-top: 3vh;
+    font-size: 2.1vh;
+	text-align:center;
+}
+
+/* ===== LINHA DO TEMPO ===== */
+.timeline {
+    margin-top: 3vh;
+    border-left: 0.32vh solid #7395f0;
+    padding-left: 2.19vh;
+}
+
+.evento {
+    margin-bottom: 2.74vh;
+    position: relative;
+    padding-left: 1.09vh;
+}
+
+.evento::before {
+    content: "";
+    width: 1.53vh;
+    height: 1.53vh;
+    background: #ff1fc3;
+    border-radius: 50%;
+    position: absolute;
+    left: -3.18vh;
+    top: 0.32vh;
+	
+}
+
+.evento strong {
+    color: #049152;
+    font-size: 2.3vh;
+}
+
+
+.evento #status {
+    color: #ffd24c;
+    font-weight: bold;
+}
+
+/* ===== CASO NÃO ENCONTRE ===== */
+.info {
+    margin-top: 3vh;
+    font-size: 2.2vh;
+    color: #ff7070;
+}
+
+.tempo {
+    font-size: 2.3vh;
+    color: #049152;
+    font-weight: bold;
+}
+
+.hora {
+    color: #52c9ff;
+    font-size: 2.3vh;
+    margin-bottom: 1.5vh;
+}

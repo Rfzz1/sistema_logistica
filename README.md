@@ -15,9 +15,10 @@ O projeto consiste em um sistema de rastreamento de encomendas feito em *3 inter
 **Instalação das bibliotecas CustomTkinter, Datetime, mysql.connector, hashlib, random, uuid, time e pymysql**
     - Utilize o código modelo abaixo para todas as bibliotecas descrtitas: ```py -m pip install biblioteca``
 
-## Instruções de instalação e funcionamento 
+## Instruções de instalação e funcionamento
+Instale o arquivo zip e extraia ele
 ### Sobre o Sistema na Interface GUI Para rodar o sistema na interface GUI
-É necessário abrir a pasta"PROVA_PY_GRUPO_RAFAEL_GUSTAVO_THIAGO_BRANDELLI". dentro dela, é necessário abrir a pasta "build", onde o haverá o arquivo executável gui_executable.exe". antes de abrir o arquivo, é necessário inicializar o serviço de MySQL, dentro do XAMPP Control Panel, para inicializar o serviço de Banco de Dados em servidor local. após esse processo, abra o arquivo "gui_executable.exe" e estará funcionando. 
+É necessário abrir a pasta"PROVA_PY_GRUPO_RAFAEL_GUSTAVO_THIAGO_BRANDELLI" que está dentro do zip. dentro dela, é necessário abrir a pasta "build", onde o haverá o arquivo executável gui_executable.exe". antes de abrir o arquivo, é necessário inicializar o serviço de MySQL, dentro do XAMPP Control Panel, para inicializar o serviço de Banco de Dados em servidor local. após esse processo, abra o arquivo "gui_executable.exe" e estará funcionando. 
 ### Sobre o Sistema em Console Para rodar o sistema feito em Console
 É necessário abrir a pasta "PROVA_PY_GRUPO_RAFAEL_GUSTAVO_THIAGO_BRANDELLI". dentro dela, é necessário abrir a pasta "build", onde o haverá o arquivo executável "cli_executable.exe". antes de abrir o arquivo, é necessário inicializar o serviço de MySQL, dentro do XAMPP Control Panel, para inicializar o serviço de Banco de Dados em servidor local. após esse processo, abra o arquivo "cli_executable.exe" e estará funcionando. 
 ### Sobre o sistema Web Para rodar o sistema Web
